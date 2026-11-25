@@ -1,0 +1,24 @@
+streamlit>=1.52
+# Utilities
+numpy
+pandas
+pillow
+
+# Face recognition
+dlib-bin
+git+https://github.com/ageitgey/face_recognition_models
+setuptools<70.0.0
+
+# Database + security
+supabase
+bcrypt
+
+# QR codes for subject sharing
+segno
+
+# Voice attendance
+librosa
+resemblyzer
+
+# Optional: threshold chart in evaluation/evaluate.py
+matplotlib
